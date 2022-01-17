@@ -13,8 +13,8 @@ SECRET = SECRET_code
 username = username_code
 scope = 'playlist-modify-private, playlist-read-private'
 
-playlist_id = "1n5p8DGIPwR0rPVwhojajV"
-new_playlist_id = "6ez21NrJp4ufFkmNeEQkU5"
+playlist_id = old_playlist_code
+new_playlist_id = new_playlist_code
 token = util.prompt_for_user_token(username,
                            scope,
                            client_id=CID,
